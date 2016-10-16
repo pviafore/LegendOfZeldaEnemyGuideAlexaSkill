@@ -30,14 +30,14 @@ var handlers = {
         var cardTitle = SKILL_NAME + ' - Beating ' + enemyName;
         var enemy = enemies[enemyName];
 
-        if (recipe) {
+        if (enemy) {
             this.attributes['speechOutput'] = enemy;
             this.attributes['repromptSpeech'] = 'Try saying repeat.';
-            this.emit(':askWithCard', recipe, this.attributes['repromptSpeech'], cardTitle, enemy);
+            this.emit(':askWithCard', enemy, this.attributes['repromptSpeech'], cardTitle, enemy);
         } else {
             var speechOutput = 'I\'m sorry, I currently do not know ';
             var repromptSpeech = 'What else can I help with?';
-            if (itemName) {
+            if (enemyName) {
                 speechOutput = 'how to beat ' + enemyName + '. ';
             } else {
                 speechOutput = 'what that enemy is ';
