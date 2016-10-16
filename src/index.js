@@ -20,7 +20,7 @@ var handlers = {
         this.attributes['repromptSpeech'] = 'For instructions on what you can say, please say help me.';
         this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
     },
-    'RecipeIntent': function () {
+    'EnemyIntent': function () {
         var enemySlot = this.event.request.intent.slots.Enemy;
         var enemyName;
         if (enemySlot && enemySlot.value) {
