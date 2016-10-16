@@ -5,7 +5,7 @@ module.exports = {
 "bubble" : "You cannot beat a bubble.  Avoid them or you lose your sword capability",
 "darknut" : "You must attack from the side or back.  Try bombs",
 "gel" : "Hit with your sword",
-"ghini": "Hit with your sword.  Killing the original kills the rest."
+"ghini": "Hit with your sword.  Killing the original kills the rest.",
 "gibdo" : "Hit with your sword.  Can be lit on fire to turn into Stalfos.",
 "goriya": "Avoid the boomerang, and Hit it with your sword.",
 "keese": "Hit it with your sword or boomerang",
@@ -23,7 +23,7 @@ module.exports = {
 "tektite" : "Hit it with your sword",
 "vire" : "Hit it with your sword",
 "wallmaster" : "Keep your distance, and hit with your sword.",
-"wizzrobe" : "Wait until they appear and hit with your sword.  Block beams with Magical Shield"
+"wizzrobe" : "Wait until they appear and hit with your sword.  Block beams with Magical Shield",
 "zol": "Hit with your sword",
 "aquamentus": "Avoid fireballs and hit the head",
 "dodongo" :"Feed three bombs",
