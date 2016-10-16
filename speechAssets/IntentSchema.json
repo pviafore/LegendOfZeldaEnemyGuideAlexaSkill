@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "EnemyIntent",
+      "slots": [
+      {
+        "name" : "Enemy",
+        "type": "LIST_OF_ENEMIES"
+      }
+     ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

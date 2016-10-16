@@ -1,0 +1,12 @@
+EnemyIntent how can I beat a {Enemy}
+EnemyIntent how can I beat an {Enemy}
+EnemyIntent how do I beat a {Enemy}
+EnemyIntent how do I beat an {Enemy}
+EnemyIntent how do I destroy a {Enemy}
+EnemyIntent how do I destroy an {Enemy}
+EnemyIntent how do I kill a {Enemy}
+EnemyIntent how do I kill an {Enemy}
+EnemyIntent how do I beat {Enemy}
+EnemyIntent how do I beat {Enemy}
+EnemyIntent how do I kill {Enemy}
+EnemyIntent how do I kill {Enemy}
