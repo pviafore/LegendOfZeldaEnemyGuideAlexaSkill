@@ -3,7 +3,7 @@
 var Alexa = require('alexa-sdk');
 var APP_ID = undefined; //OPTIONAL: replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 var SKILL_NAME = 'Legend of Zelda Enemy Guide';
-var recipes = require('./enemies');
+var enemies = require('./enemies');
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
