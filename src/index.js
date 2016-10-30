@@ -33,7 +33,7 @@ var handlers = {
         if (enemy_instructions) {
             this.attributes.speechOutput = enemy_instructions;
             this.attributes.repromptSpeech = 'Try saying repeat.';
-            this.emit(':tellWithCard', this.attributes.speechOutput, this.attributes.repromptSpeech, cardTitle, enemy_instructions);
+            this.emit(':tellWithCard', this.attributes.speechOutput, cardTitle, enemy_instructions);
         } else {
             var repromptSpeech = 'What else can I help with?';
             this.attributes.repromptSpeech = repromptSpeech;
