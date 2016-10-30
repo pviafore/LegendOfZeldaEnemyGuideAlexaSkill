@@ -17,7 +17,8 @@ module.exports = {
 "octorok" : "Block rocks with shield.  Hit it with your sword.",
 "peahat" : "Wait until its stationary. Hit it with your sword.",
 "pols voice" : "Shoot with arrows",
-"river zora" : "Wait until it appears above water and Hit it with your sword.  Block fireballs with Magical shield.",
+"river zora" : "Wait until it appears above water and hit it with your sword.  Block fireballs with Magical shield.",
+"zora" : "Wait until it appears above water and hit it with your sword.  Block fireballs with Magical shield.",
 "rope" : "Hit it with your sword",
 "stalfos" : "Hit it with your sword",
 "tektite" : "Hit it with your sword",
@@ -28,8 +29,8 @@ module.exports = {
 "aquamentus": "Avoid fireballs and hit the head",
 "dodongo" :"Feed three bombs",
 "manhandla" : "Hit leaves with sword, or use bombs",
-"gleeok" : "Hit heads with swords.  Avoid floating heads",
-"digdogger" : "Use the flute and then hit with your sword",
+"gleeok" : "Hit its head with your sword.  Avoid the floating heads",
+"digdogger" : "Use the flute to make it smaller and then hit with your sword",
 "gohma" : "Wait until the eye opens and shoot an arrow into the eye",
 "gannon" : "Hit him with your sword until he changes color.  Then fire a silver arrow at him"
 }
